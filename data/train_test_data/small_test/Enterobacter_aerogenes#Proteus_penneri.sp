@@ -1,0 +1,11 @@
+@SUMMARY
+INT == 0
+POS == 0
+NEG == 0
+@PAPERS
+PMID== 8027345
+TI  == evaluation of rapid one system for identification of 379 strains in the family enterobacteriaceae and oxidase-negative, gram-negative nonfermenters.
+AB  == the ability of the rapid one system (innovative diagnostic systems, inc., norcross, ga.) to identify 364 strains in the family enterobacteriaceae and 15 oxidase-negative, gram-negative, nonfermentative rods was evaluated. kits were inoculated with no. 2 mcfarland standard suspensions, and reactions were interpreted after 4 h of incubation at 35 degrees c. overall, the method correctly identified (to the species level or to the genus level for salmonellas  and non-shigella sonnei shigella species) 363 strains (95.8%) without additional  tests. for four strains (1.0%), additional tests were required to delineate the correct identification from a range of two or more possibilities; these included  one serratia liquefaciens (serratia marcescens or serratia liquefaciens), one serratia rubidaea (serratia rubidaea or serratia odorifera), one salmonella typhi (leminorella richardii or salmonella sp.) and one yersinia enterocolitica (yersinia frederiksenii, yersinia intermedia, or yersinia enterocolitica). twelve strains (3.2%) were misidentified or yielded codes with no identification; these  comprised one citrobacter amalonaticus (no identification), three enterobacter hormaechei (not in the rapid one database; two enterobacter amnigenus, one enterobacter sp.), one serratia liquefaciens (enterobacter cloacae), one serratia rubidaea (no identification), four serratia fonticola (not in rapid one database; two enterobacter aerogenes, one serratia marcescens, one not identified), one proteus mirabilis (proteus penneri), and one proteus vulgaris (providencia rustigianii). if the seven strains not included in the database had been excluded, correct identification rates would have risen to 97.6% without additional tests and 98.7% with additional tests, with misidentification rates dropping to 1.3%. the rapid one system is easy to set up and the results are easy to read, and the system provides an accurate, nonautomated commercially available method for the same-day identification of members of the family enterobacteriaceae and oxidase-negative, gram-negative nonfermenters.
+TIHT== 
+ABHT== 
+

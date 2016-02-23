@@ -14,7 +14,6 @@ svm_core.py
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.pipeline import Pipeline
 from sklearn import svm
-from modules import paperparse as pp
 from random import shuffle
 import re
 import os

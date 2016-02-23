@@ -1,0 +1,11 @@
+@SUMMARY
+INT == 0
+POS == 0
+NEG == 0
+@PAPERS
+PMID== 16701520
+TI  == in vitro activity of ramoplanin and comparator drugs against anaerobic intestinal bacteria from the perspective of potential utility in pathology involving bowel flora.
+AB  == susceptibility of intestinal bacteria to various antimicrobial agents in vitro, together with levels of those agents achieved in the gut, provides information on the likely impact of the agents on the intestinal flora. orally administered drugs that are poorly absorbed may be useful for treatment of intestinal infections and for certain other situations in which intestinal bacteria may play a role. the antimicrobial activity of ramoplanin (mdl 62,198) against 928 strains of intestinal anaerobic bacteria was determined using the nccls-approved wadsworth brucella laked-blood agar dilution method. the activity of ramoplanin was compared with that of ampicillin, bacitracin, metronidazole, trimethoprim/sulfamethoxazole (tmp/smx), and vancomycin. the organisms tested included bacteroides fragilis group (n=89), other bacteroides species (n=16), other anaerobic gram-negative rods (n=56) anaerobic cocci (n=114), clostridium species (n=426), and non-sporeforming anaerobic gram-positive rods (n=227). the overall mic(90)s of ramoplanin, ampicillin, bacitracin, metronidazole, and vancomycin were 256, 32, 128, 16, and 128 mcg/ml, respectively. ramoplanin was almost always highly active vs. gram-positive organisms and relatively poor in activity against gram-negative organisms, particularly bacteroides, bilophila, prevotella, and veillonella. vancomycin was quite similar to ramoplanin in its activity. ampicillin was relatively poor in activity vs. organisms that often produce beta-lactamase, including most of the gram-negative rods as well as clostridium bolteae and c. clostridioforme. bacitracin was relatively poor in activity against most anaerobic gram-negative rods, but better vs. most gram-positive organisms. metronidazole was very active against all groups other than bifidobacteria and some strains of other types of non-sporeforming gram-positive bacilli. tmp/smx was very poorly active, with an mic(90) of >2048 mcg/ml.
+TIHT== 
+ABHT== 
+

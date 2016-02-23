@@ -1,0 +1,11 @@
+@SUMMARY
+INT == 0
+POS == 0
+NEG == 0
+@PAPERS
+PMID== 23943617
+TI  == discovery of beta-1,4-d-mannosyl-n-acetyl-d-glucosamine phosphorylase involved in the metabolism of n-glycans.
+AB  == a gene cluster involved in n-glycan metabolism was identified in the genome of bacteroides thetaiotaomicron vpi-5482. this gene cluster encodes a major facilitator superfamily transporter, a starch utilization system-like transporter consisting of a tonb-dependent oligosaccharide transporter and an outer membrane  lipoprotein, four glycoside hydrolases (alpha-mannosidase, beta-n-acetylhexosaminidase, exo-alpha-sialidase, and endo-beta-n-acetylglucosaminidase), and a phosphorylase (bt1033) with unknown function. it was demonstrated that bt1033 catalyzed the reversible phosphorolysis of beta-1,4-d-mannosyl-n-acetyl-d-glucosamine in a typical sequential bi bi mechanism. these results indicate that bt1033 plays a crucial role as a key enzyme in the n-glycan catabolism where beta-1,4-d-mannosyl-n-acetyl-d-glucosamine is liberated from n-glycans by sequential glycoside hydrolase-catalyzed reactions, transported into the cell, and intracellularly converted into alpha-d-mannose 1-phosphate and n-acetyl-d-glucosamine. in addition, intestinal anaerobic bacteria such as bacteroides fragilis, bacteroides helcogenes, bacteroides salanitronis, bacteroides vulgatus, prevotella denticola, prevotella dentalis, prevotella melaninogenica, parabacteroides distasonis, and alistipes finegoldii were also suggested to possess the similar metabolic pathway for n-glycans. a notable feature of the new metabolic pathway for n-glycans is the more efficient use of atp-stored energy, in comparison with the conventional pathway where beta-mannosidase and atp-dependent hexokinase participate, because it is possible to directly phosphorylate the d-mannose residue of beta-1,4-d-mannosyl-n-acetyl-d-glucosamine to enter glycolysis. this is the first report of a metabolic pathway for n-glycans that includes a phosphorylase. we propose 4-o-beta-d-mannopyranosyl-n-acetyl-d-glucosamine:phosphate alpha-d-mannosyltransferase as the systematic name and beta-1,4-d-mannosyl-n-acetyl-d-glucosamine phosphorylase as the short name for bt1033.
+TIHT== 
+ABHT== 
+

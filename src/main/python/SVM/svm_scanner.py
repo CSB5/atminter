@@ -38,7 +38,10 @@ total_hits = 0
 
 for file_num, targetPath in enumerate(targetPaths):
 	print("FILE NUMBER: ", file_num)
-	pair = pp.spFile(targetPath, purge = True)
+	if args.json:
+		pair = pp.SpFile(targetPath, purge = True)
+	else:
+		pair = pp.spFile(targetPath, purge = True)
 
 	hits = 0
 
@@ -47,8 +50,10 @@ for file_num, targetPath in enumerate(targetPaths):
 	print(targetPath)
 	cur+=1
 
-
-	temp = pp.spFile(targetPath, reduced = True)
+	if args.json:
+		temp = pp.SpFile(targetPath, reduced = True)
+	else:
+		temp = pp.spFile(targetPath, reduced = True)
 	if temp.summary["NEG "] != "1":
 		lower_bound += len(pair.papers)
 		# print(pair.papers)
