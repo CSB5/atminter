@@ -1,7 +1,7 @@
-The @MInter bacterial interaction detection system.
+##The @MInter bacterial interaction detection system.
 
 
-##1. Core components
+###1. Core components
 
 
 __pretrained SVMs__
@@ -37,7 +37,7 @@ Annotated abstracts/annotations for @SVM training
 /data/train_test_data/collated_annotations.tar.gz
 	Extended dataset
 
-##2. Input format
+###2. Input format
 
 The @MInter system, as input, takes in JSONs of the following format:
 **filename:**
