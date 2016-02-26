@@ -5,6 +5,7 @@ The @MInter bacterial interaction detection system.
 
 
 __pretrained SVMs__
+
 data/SVMs/core_trained_svm.p
 	pickled SVM object for use in svm_scanner.py.
 	Trained on only interactions involving Escherichia coli and Lactobacillus acidophilus
@@ -13,6 +14,7 @@ data/SVMs/full_trained_svm.p
 	Trained on entire corpus
 
 __SVM Tools__
+
 SVM/svm_scanner.py
 	SVM script. Takes in a directory of JSON files (format in 2.) returns a tagged JSON ("ABHT" field) for each file. 1 == interaction detected, 0 == no interaction detected. Refer to script help for more details.
 SVM/svm_train.py
@@ -23,7 +25,9 @@ patternScan/patternScan.py
 	Pattern Scanner script. Takes in a directory of JSON files (format in 2.) returns a tagged JSON ("ABHT" field) for each file. If an interaction is detected, a list of all patterns signifying the interaction is inserted into the "ABHT" field. Refer to script help for more details.
 
 __Annotated Corpus__
+
 Annotated abstracts/annotations for @SVM training
+
 /data/train_test_data/lactobacillus_acidophilus#escherichia_coli.ann
 	Core dataset
 
@@ -33,7 +37,8 @@ Annotated abstracts/annotations for @SVM training
 /data/train_test_data/collated_annotations.tar.gz
 	Extended dataset
 
-__#2. Input format__
+##2. Input format
+
 The @MInter system, as input, takes in JSONs of the following format:
 **filename:**
 
