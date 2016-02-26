@@ -21,7 +21,6 @@ getNames(filePath):
 	Sample pubcrawl output file:
 		Escherichia_coli#Pseudomonas_aeruginosa.compiled
 		Escherichia_coli#Pseudomonas_aeruginosa.sp
-		Escherichia_coli#Pseudomonas_aeruginosa.json
 
 	Resultant getNames output:
 		[['escherichia coli', 'e. coli', 'escherichia'], ['pseudomonas aeruginosa', 'p. aeruginosa', 'pseudomonas']]
@@ -226,7 +225,7 @@ SpFile_term_pattern = re.compile(r"([\w ]*)==")
 
 """
 SpFile:
-	Fundamental storage file for all later processing. Replaces spFile
+	Fundamental storage file for all later processing
 	input:
 		path to a target json file output by pubcrawl/any minter module
 	flags:
