@@ -5,16 +5,18 @@ import os
 import numpy as np
 from sklearn import cross_validation
 from modules import paperparse as pp
+import argparse
 import math
 
 script_dir_path = os.path.join(os.path.realpath(__file__),"..")
 minter_root = os.path.abspath(os.path.join(script_dir_path, "../../../.."))
 
 if __name__ == "__main__":
-	 parser = argparse.ArgumentParser()
-	 parser.add_argument( "target", help ="target directory containing annotated .sp files")
-	 args = parser.parse_args()
-	 baseFolder = args.target
+	parser = argparse.ArgumentParser()
+	parser.add_argument( "target", help ="target directory containing annotated .sp files")
+	parser.add_argument( "-p", "--probas", help ="Proabibility value cutoff (optional)", type = float, default = None)
+	args = parser.parse_args()
+	baseFolder = args.target
 	
 	"""
 	Training of the SVM
@@ -46,7 +48,7 @@ if __name__ == "__main__":
 		svm = sc.make_classifier(C=1)
 		svm.fit(training_set, training_set_targets)
 
-		scoring.append(sc.grade(svm, testing_set, testing_set_targets))
+		scoring.append(sc.grade(svm, testing_set, testing_set_targets, probas = args.probas))
 
 	
 
