@@ -16,12 +16,17 @@ data/SVMs/full_trained_svm.p
 __SVM Tools__
 
 SVM/svm_scanner.py
+
 	SVM script. Takes in a directory of JSON files (format in 2.) returns a tagged JSON ("ABHT" field) for each file. 1 == interaction detected, 0 == no interaction detected. Refer to script help for more details.
+
 SVM/svm_train.py
+
 	Training script. Takes in an annotated corpus file (.ann), produces a trained, pickled SVM from that corpus. 
 
 __Pattern Scanner__
+
 patternScan/patternScan.py
+
 	Pattern Scanner script. Takes in a directory of JSON files (format in 2.) returns a tagged JSON ("ABHT" field) for each file. If an interaction is detected, a list of all patterns signifying the interaction is inserted into the "ABHT" field. Refer to script help for more details.
 
 __Annotated Corpus__
