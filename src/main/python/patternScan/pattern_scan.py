@@ -7,6 +7,7 @@ patternScan.py
 
 import pattern
 import os
+import sys
 import multiprocessing
 import argparse
 

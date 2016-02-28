@@ -1,8 +1,13 @@
 #!/usr/bin/env python3
-from modules import sent_tokenize as st
+
 from nltk.stem.snowball import SnowballStemmer
 import os
 import re
+import sys
+script_dir_path = os.path.join(os.path.realpath(__file__),"..")
+minter_root = os.path.abspath(os.path.join(script_dir_path, "../../../.."))
+sys.path.append(minter_root+"/lib")
+from modules import sent_tokenize as st
 from modules import paperparse as pp
 import copy
 

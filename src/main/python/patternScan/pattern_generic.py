@@ -5,6 +5,9 @@ from modules import papers
 from modules import modfile, initialize
 import os
 import re
+script_dir_path = os.path.join(os.path.realpath(__file__),"..")
+minter_root = os.path.abspath(os.path.join(script_dir_path, "../../../.."))
+sys.path.append(minter_root+"/lib")
 from modules import paperparse as pp
 import copy
 import itertools

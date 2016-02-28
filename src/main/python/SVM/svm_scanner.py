@@ -5,14 +5,15 @@ svm_scanner:
 """
 
 import pickle
-from modules import paperparse as pp
 import os
 from math import log
 import argparse
+import sys
 
 script_dir_path = os.path.join(os.path.realpath(__file__),"..")
 minter_root = os.path.abspath(os.path.join(script_dir_path, "../../../.."))
-
+sys.path.append(minter_root+"/lib")
+from modules import paperparse as pp
 
 parser = argparse.ArgumentParser()
 parser.add_argument( "SVM", help ="pickled SVM file")

@@ -4,12 +4,15 @@ import svm_core as sc
 import os
 import numpy as np
 from sklearn import cross_validation
-from modules import paperparse as pp
 import argparse
 import math
+import sys
 
 script_dir_path = os.path.join(os.path.realpath(__file__),"..")
 minter_root = os.path.abspath(os.path.join(script_dir_path, "../../../.."))
+sys.path.append(minter_root+"/lib")
+
+from modules import paperparse as pp
 
 if __name__ == "__main__":
 	parser = argparse.ArgumentParser()
