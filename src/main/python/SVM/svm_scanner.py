@@ -55,7 +55,7 @@ for file_num, targetPath in enumerate(targetPaths):
 		temp = pp.SpFile(targetPath, reduced = True)
 	else:
 		temp = pp.spFile(targetPath, reduced = True)
-	if temp.summary["NEG "] != "1":
+	if temp.summary["NEG"] != "1":
 		lower_bound += len(pair.papers)
 		# print(pair.papers)
 		# print(len(pair.papers))
@@ -69,14 +69,14 @@ for file_num, targetPath in enumerate(targetPaths):
 			if svm.predict([paper["AB"]]):
 				paper["ABHT"] = "1"
 				hits += 1
-				pair.summary["INT "] = "1"
-				pair.summary["NEG "] = "1"
+				pair.summary["INT"] = "1"
+				pair.summary["NEG"] = "1"
 				print("HIT")
 				total_hits +=1
 		else:
 			paper["ABHT"] = "0"
-			pair.summary["INT "] = "0"
-			pair.summary["NEG "] = "0"
+			pair.summary["INT"] = "0"
+			pair.summary["NEG"] = "0"
 
 	pair.writeSpFileHits(os.path.join(outdir, os.path.basename(targetPath)))
 
