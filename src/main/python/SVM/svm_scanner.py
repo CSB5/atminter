@@ -18,7 +18,7 @@ parser = argparse.ArgumentParser()
 parser.add_argument( "SVM", help ="pickled SVM file")
 parser.add_argument( "target", help = "target directory containing spFiles to be scanned")
 parser.add_argument( "-o", "--output", help ="output directory", default = os.path.join(minter_root, "output", "svm_scanner"))
-parser.add_argument( "-j", "--json", help = "Use json files instead", action = "store_true", default = 0)
+parser.add_argument( "-j", "--json", help = "Use json files instead", action = "store_true", default = 1) #change to sp switch
 args = parser.parse_args()
 
 print("LOADING SVM: ", args.SVM)
@@ -29,7 +29,7 @@ outdir = args.output
 
 if not os.path.exists(outdir):
 	os.makedirs(outdir)
-targetPaths = [target + i for i in os.listdir(target)]
+targetPaths = [os.path.join(target, i) for i in os.listdir(target)]
 
 cur = 0
 total_papers = 0
@@ -64,8 +64,8 @@ for file_num, targetPath in enumerate(targetPaths):
 	for paper_num, paper in enumerate(pair.papers):	
 		print("processing paper {}/{}".format(paper_num, paper_count))
 		#implement temporary lowers to allow persistance of the original paper
-		if paper["AB  "]:
-			if svm.predict([paper["AB  "]]):
+		if paper["AB"]:
+			if svm.predict([paper["AB"]]):
 				paper["ABHT"] = "1"
 				hits += 1
 				pair.summary["INT "] = "1"

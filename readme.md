@@ -42,14 +42,45 @@ Annotated abstracts/annotations for @SVM training
 /data/train_test_data/collated_annotations.tar.gz
 	Extended dataset
 
-###2. Input format
+###2. Quickstart
 
-The @MInter system, as input, takes in JSONs of the following format:
+####2.1 SVM use
+
+#####2.1.1 Using a pretrained SVM
+
+__Sample command__
+
+	./src/main/python/SVM/svm_scanner.py data/svms/full_trained_svm.p data/example/svm_test -o data/example/svm_test_output/
+
+svm_scanner.py uses a pretrained SVM (full_trained_svm.p) to analyze data in data/example/svm_test. Output results to data/example/svm_test_output/ as JSON files.
+
+#####2.1.2 Training an SVM for @MInter
+
+	./src/main/python/SVM/svm_train.py data/example/svm_train/lactobacillus_acidophilus#escherichia_coli.ann -o data/example/svm_train_output/core_svm.p
+
+svm_train.py uses annotated data (lactobacillus_acidophilus#escherichia_coli.ann) to train an SVM. Outputs SVM as data/example/svm_train_output/core_svm.p.
+
+####2.2 Pattern Scanner
+
+#####2.2.1 Pattern Scanner use
+
+	./src/main/python/patternScan/pattern_scan.py data/example/pattern_test -o data/example/pattern_test_output/
+
+pattern_scan.py analyzes data in data/example/pattern_test using precompiled patterns and outputs to data/example/pattern_test_output/
+
+###3. Input format
+
+The @MInter system, as input, uses the following files:
+
+####JSON
+
 **filename:**
 
 Species_1#Species_2.json
 
 **Contents:**
+
+A sample file is included in data/train_test_data/lactobacillus_acidophilus#escherichia_coli.json
 
 	{"SUMMARY":
 		{
@@ -70,3 +101,15 @@ Species_1#Species_2.json
 	]}
 
 	}
+
+####Annotation files
+
+**filename:**
+
+Filename.ann
+
+**contents**
+
+File containing annotated abstracts for ML training. Consists of line triplets for each paper with truth value, title text and abstract text on lines i, i+1 and i +2 respectively. 
+
+A sample file is included in data/train_test_data/lactobacillus_acidophilus#escherichia_coli.ann
