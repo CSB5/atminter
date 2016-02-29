@@ -127,3 +127,12 @@ Filename.ann
 File containing annotated abstracts for ML training. Consists of line triplets for each paper with truth value, title text and abstract text on lines i, i+1 and i +2 respectively. 
 
 A sample file is included in data/train_test_data/lactobacillus_acidophilus#escherichia_coli.ann
+
+###3. Dependencies
+
+Python 3 (>=3.4.1) — I tested with 3.5
+segtok (>=1.3.0.0)
+scipy (>=0.15.1)
+nltk (>=3.0.2)
+scikit-learn (>=0.16.1)
+numpy (>=1.10.4)
