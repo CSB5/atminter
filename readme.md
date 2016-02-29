@@ -44,6 +44,22 @@ Annotated abstracts/annotations for @SVM training
 
 ###2. Quickstart
 
+####2.0 Data acquisiton (Currently undocumented)
+
+#####2.0.1 Acquiring data for processing
+
+Provide a TSV of species 2-tuples of the following format and save.
+
+	Species_1	Species_2
+	Species_1	Species_2
+
+Execute /src/main/scripts/pubcrawl.py on TSV
+
+__Sample command__
+
+	./src/main/python/scripts/pubcrawl.py <filepath> <your_email> -c <corecount> -o <output directory>
+
+
 ####2.1 SVM use
 
 #####2.1.1 Using a pretrained SVM
@@ -95,9 +111,7 @@ A sample file is included in data/train_test_data/lactobacillus_acidophilus#esch
 			"AB":<str>,		#Paper Abstract
 			"TIHT":<str>,	#Depreciated
 			"ABHT":<str>,	#Sentenced detected if pattern found (Patternscan); Numeric value depending on interaction (SVM)
-
 			}, 
-
 	]}
 
 	}
