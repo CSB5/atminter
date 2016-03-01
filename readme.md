@@ -130,9 +130,10 @@ A sample file is included in data/train_test_data/lactobacillus_acidophilus#esch
 
 ###3. Dependencies
 
-Python 3 (>=3.4.1) — I tested with 3.5
-segtok (>=1.3.0.0)
-scipy (>=0.15.1)
-nltk (>=3.0.2)
-scikit-learn (>=0.16.1)
-numpy (>=1.10.4)
+* Python 3 (>=3.4.1)
+* segtok (>=1.3.0.0)
+* scipy (>=0.15.1)
+* nltk (>=3.0.2)
+* scikit-learn (>=0.16.1)
+* numpy (>=1.10.4)
+* Biopython (>=1.65)
