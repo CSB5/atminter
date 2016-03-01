@@ -128,7 +128,7 @@ File containing annotated abstracts for ML training. Consists of line triplets f
 
 A sample file is included in data/train_test_data/lactobacillus_acidophilus#escherichia_coli.ann
 
-###3. Dependencies
+###4. Dependencies
 
 * Python 3 (>=3.4.1)
 * segtok (>=1.3.0.0)
