@@ -1,4 +1,4 @@
-##The @MInter bacterial interaction detection system.
+##The @MInter microbial interaction identification system.
 
 
 ###1. Core components
@@ -109,8 +109,8 @@ A sample file is included in data/train_test_data/lactobacillus_acidophilus#esch
 			"PMID":<str>,	#Paper PMID
 			"TI":<str>,		#Paper Title
 			"AB":<str>,		#Paper Abstract
-			"TIHT":<str>,	#Depreciated
-			"ABHT":<str>,	#Sentenced detected if pattern found (Patternscan); Numeric value depending on interaction (SVM)
+			"TIHT":<str>,	#Depricated
+			"ABHT":<str>,	#Sentence detected if pattern found (Patternscan); Numeric value depending on interaction (SVM)
 			}, 
 	]}
 
@@ -124,7 +124,7 @@ Filename.ann
 
 **contents**
 
-File containing annotated abstracts for ML training. Consists of line triplets for each paper with truth value, title text and abstract text on lines i, i+1 and i +2 respectively. 
+File containing annotated abstracts for ML training. Consists of line triplets for each paper with truth value, title text and abstract text on lines i, i+1 and i+2 respectively. 
 
 A sample file is included in data/train_test_data/lactobacillus_acidophilus#escherichia_coli.ann
 
