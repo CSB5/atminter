@@ -1,4 +1,4 @@
-##The @MInter microbial interaction identification system.
+##The @MInter microbial interaction identification system
 
 
 ###1. Core components
