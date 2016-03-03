@@ -4,7 +4,7 @@
 ###1. Core components
 
 
-__pretrained SVMs__
+__Pretrained SVMs__
 
 data/SVMs/core_trained_svm.p
 	pickled SVM object for use in svm_scanner.py.
@@ -44,7 +44,7 @@ Annotated abstracts/annotations for @SVM training
 
 ###2. Quickstart
 
-####2.0 Data acquisiton (Currently undocumented)
+####2.0 Data acquisiton (currently undocumented)
 
 #####2.0.1 Acquiring data for processing
 
